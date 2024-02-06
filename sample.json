@@ -1,0 +1,1589 @@
+{
+  "name": ".",
+  "version": "",
+  "internal": false,
+  "resolved": true,
+  "deps": [
+    {
+      "name": "github.com/JammUtkarsh/pms/cmd",
+      "version": "",
+      "internal": false,
+      "resolved": true,
+      "deps": [
+        {
+          "name": "errors",
+          "version": "",
+          "internal": true,
+          "resolved": true,
+          "deps": null
+        },
+        {
+          "name": "os",
+          "version": "",
+          "internal": true,
+          "resolved": true,
+          "deps": null
+        },
+        {
+          "name": "path/filepath",
+          "version": "",
+          "internal": true,
+          "resolved": true,
+          "deps": null
+        },
+        {
+          "name": "github.com/JammUtkarsh/pms/utils",
+          "version": "",
+          "internal": false,
+          "resolved": true,
+          "deps": [
+            {
+              "name": "encoding/json",
+              "version": "",
+              "internal": true,
+              "resolved": true,
+              "deps": null
+            },
+            {
+              "name": "errors",
+              "version": "",
+              "internal": true,
+              "resolved": true,
+              "deps": null
+            },
+            {
+              "name": "os",
+              "version": "",
+              "internal": true,
+              "resolved": true,
+              "deps": null
+            },
+            {
+              "name": "os/exec",
+              "version": "",
+              "internal": true,
+              "resolved": true,
+              "deps": null
+            },
+            {
+              "name": "strings",
+              "version": "",
+              "internal": true,
+              "resolved": true,
+              "deps": null
+            },
+            {
+              "name": "github.com/charmbracelet/bubbles/key",
+              "version": "v0.15.0",
+              "internal": false,
+              "resolved": true,
+              "deps": [
+                {
+                  "name": "github.com/charmbracelet/bubbletea",
+                  "version": "v0.24.1",
+                  "internal": false,
+                  "resolved": true,
+                  "deps": [
+                    {
+                      "name": "bytes",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "context",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "errors",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "fmt",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "io",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "log",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "os",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "os/exec",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "os/signal",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "runtime/debug",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "strings",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "sync",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "syscall",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "time",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "unicode",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "unicode/utf8",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "github.com/containerd/console",
+                      "version": "v1.0.4-0.20230313162750-1ae8d489ac81",
+                      "internal": false,
+                      "resolved": true,
+                      "deps": [
+                        {
+                          "name": "errors",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "fmt",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "io",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "os",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "golang.org/x/sys/unix",
+                          "version": "v0.6.0",
+                          "internal": false,
+                          "resolved": true,
+                          "deps": [
+                            {
+                              "name": "bytes",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "fmt",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "runtime",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "sort",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "strings",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "sync",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "syscall",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "time",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "unsafe",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "github.com/mattn/go-isatty",
+                      "version": "v0.0.18",
+                      "internal": false,
+                      "resolved": true,
+                      "deps": [
+                        {
+                          "name": "golang.org/x/sys/unix",
+                          "version": "v0.6.0",
+                          "internal": false,
+                          "resolved": true,
+                          "deps": null
+                        }
+                      ]
+                    },
+                    {
+                      "name": "github.com/mattn/go-localereader",
+                      "version": "v0.0.1",
+                      "internal": false,
+                      "resolved": true,
+                      "deps": [
+                        {
+                          "name": "bytes",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "io",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        }
+                      ]
+                    },
+                    {
+                      "name": "github.com/muesli/ansi/compressor",
+                      "version": "v0.0.0-20211018074035-2e021307bc4b",
+                      "internal": false,
+                      "resolved": true,
+                      "deps": [
+                        {
+                          "name": "bytes",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "io",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "unicode/utf8",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "github.com/muesli/ansi",
+                          "version": "v0.0.0-20211018074035-2e021307bc4b",
+                          "internal": false,
+                          "resolved": true,
+                          "deps": [
+                            {
+                              "name": "bytes",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "io",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "unicode/utf8",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "github.com/mattn/go-runewidth",
+                              "version": "v0.0.14",
+                              "internal": false,
+                              "resolved": true,
+                              "deps": [
+                                {
+                                  "name": "os",
+                                  "version": "",
+                                  "internal": true,
+                                  "resolved": true,
+                                  "deps": null
+                                },
+                                {
+                                  "name": "regexp",
+                                  "version": "",
+                                  "internal": true,
+                                  "resolved": true,
+                                  "deps": null
+                                },
+                                {
+                                  "name": "strings",
+                                  "version": "",
+                                  "internal": true,
+                                  "resolved": true,
+                                  "deps": null
+                                },
+                                {
+                                  "name": "github.com/rivo/uniseg",
+                                  "version": "v0.2.0",
+                                  "internal": false,
+                                  "resolved": true,
+                                  "deps": [
+                                    {
+                                      "name": "unicode/utf8",
+                                      "version": "",
+                                      "internal": true,
+                                      "resolved": true,
+                                      "deps": null
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "github.com/muesli/cancelreader",
+                      "version": "v0.2.2",
+                      "internal": false,
+                      "resolved": true,
+                      "deps": [
+                        {
+                          "name": "errors",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "fmt",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "io",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "os",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "strings",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "sync",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "golang.org/x/sys/unix",
+                          "version": "v0.6.0",
+                          "internal": false,
+                          "resolved": true,
+                          "deps": null
+                        }
+                      ]
+                    },
+                    {
+                      "name": "github.com/muesli/reflow/truncate",
+                      "version": "v0.3.0",
+                      "internal": false,
+                      "resolved": true,
+                      "deps": [
+                        {
+                          "name": "bytes",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "io",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "github.com/mattn/go-runewidth",
+                          "version": "v0.0.14",
+                          "internal": false,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "github.com/muesli/reflow/ansi",
+                          "version": "v0.3.0",
+                          "internal": false,
+                          "resolved": true,
+                          "deps": [
+                            {
+                              "name": "bytes",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "io",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "unicode/utf8",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "github.com/mattn/go-runewidth",
+                              "version": "v0.0.14",
+                              "internal": false,
+                              "resolved": true,
+                              "deps": null
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "github.com/muesli/termenv",
+                      "version": "v0.15.1",
+                      "internal": false,
+                      "resolved": true,
+                      "deps": [
+                        {
+                          "name": "errors",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "fmt",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "image/color",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "io",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "math",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "os",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "strconv",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "strings",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "sync",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "text/template",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "time",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "github.com/aymanbagabas/go-osc52/v2",
+                          "version": "v2.0.1",
+                          "internal": false,
+                          "resolved": true,
+                          "deps": [
+                            {
+                              "name": "encoding/base64",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "fmt",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "io",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "strings",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            }
+                          ]
+                        },
+                        {
+                          "name": "github.com/lucasb-eyer/go-colorful",
+                          "version": "v1.2.0",
+                          "internal": false,
+                          "resolved": true,
+                          "deps": [
+                            {
+                              "name": "database/sql/driver",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "encoding/json",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "fmt",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "image/color",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "math",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "math/rand",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "reflect",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            }
+                          ]
+                        },
+                        {
+                          "name": "github.com/mattn/go-isatty",
+                          "version": "v0.0.18",
+                          "internal": false,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "github.com/mattn/go-runewidth",
+                          "version": "v0.0.14",
+                          "internal": false,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "golang.org/x/sys/unix",
+                          "version": "v0.6.0",
+                          "internal": false,
+                          "resolved": true,
+                          "deps": null
+                        }
+                      ]
+                    },
+                    {
+                      "name": "golang.org/x/sync/errgroup",
+                      "version": "v0.1.0",
+                      "internal": false,
+                      "resolved": true,
+                      "deps": [
+                        {
+                          "name": "context",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "fmt",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "sync",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        }
+                      ]
+                    },
+                    {
+                      "name": "golang.org/x/term",
+                      "version": "v0.6.0",
+                      "internal": false,
+                      "resolved": true,
+                      "deps": [
+                        {
+                          "name": "bytes",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "io",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "runtime",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "strconv",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "sync",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "unicode/utf8",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "golang.org/x/sys/unix",
+                          "version": "v0.6.0",
+                          "internal": false,
+                          "resolved": true,
+                          "deps": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "github.com/charmbracelet/bubbles/list",
+              "version": "v0.15.0",
+              "internal": false,
+              "resolved": true,
+              "deps": [
+                {
+                  "name": "fmt",
+                  "version": "",
+                  "internal": true,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "io",
+                  "version": "",
+                  "internal": true,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "sort",
+                  "version": "",
+                  "internal": true,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "strings",
+                  "version": "",
+                  "internal": true,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "time",
+                  "version": "",
+                  "internal": true,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "github.com/charmbracelet/bubbles/help",
+                  "version": "v0.15.0",
+                  "internal": false,
+                  "resolved": true,
+                  "deps": [
+                    {
+                      "name": "strings",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "github.com/charmbracelet/bubbles/key",
+                      "version": "v0.15.0",
+                      "internal": false,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "github.com/charmbracelet/bubbletea",
+                      "version": "v0.24.1",
+                      "internal": false,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "github.com/charmbracelet/lipgloss",
+                      "version": "v0.6.0",
+                      "internal": false,
+                      "resolved": true,
+                      "deps": [
+                        {
+                          "name": "image/color",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "math",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "strings",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "sync",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "unicode",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "github.com/mattn/go-runewidth",
+                          "version": "v0.0.14",
+                          "internal": false,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "github.com/muesli/reflow/ansi",
+                          "version": "v0.3.0",
+                          "internal": false,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "github.com/muesli/reflow/truncate",
+                          "version": "v0.3.0",
+                          "internal": false,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "github.com/muesli/reflow/wordwrap",
+                          "version": "v0.3.0",
+                          "internal": false,
+                          "resolved": true,
+                          "deps": [
+                            {
+                              "name": "bytes",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "strings",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "unicode",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "github.com/muesli/reflow/ansi",
+                              "version": "v0.3.0",
+                              "internal": false,
+                              "resolved": true,
+                              "deps": null
+                            }
+                          ]
+                        },
+                        {
+                          "name": "github.com/muesli/reflow/wrap",
+                          "version": "v0.3.0",
+                          "internal": false,
+                          "resolved": true,
+                          "deps": [
+                            {
+                              "name": "bytes",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "strings",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "unicode",
+                              "version": "",
+                              "internal": true,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "github.com/mattn/go-runewidth",
+                              "version": "v0.0.14",
+                              "internal": false,
+                              "resolved": true,
+                              "deps": null
+                            },
+                            {
+                              "name": "github.com/muesli/reflow/ansi",
+                              "version": "v0.3.0",
+                              "internal": false,
+                              "resolved": true,
+                              "deps": null
+                            }
+                          ]
+                        },
+                        {
+                          "name": "github.com/muesli/termenv",
+                          "version": "v0.15.1",
+                          "internal": false,
+                          "resolved": true,
+                          "deps": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "github.com/charmbracelet/bubbles/key",
+                  "version": "v0.15.0",
+                  "internal": false,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "github.com/charmbracelet/bubbles/paginator",
+                  "version": "v0.15.0",
+                  "internal": false,
+                  "resolved": true,
+                  "deps": [
+                    {
+                      "name": "fmt",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "github.com/charmbracelet/bubbles/key",
+                      "version": "v0.15.0",
+                      "internal": false,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "github.com/charmbracelet/bubbletea",
+                      "version": "v0.24.1",
+                      "internal": false,
+                      "resolved": true,
+                      "deps": null
+                    }
+                  ]
+                },
+                {
+                  "name": "github.com/charmbracelet/bubbles/spinner",
+                  "version": "v0.15.0",
+                  "internal": false,
+                  "resolved": true,
+                  "deps": [
+                    {
+                      "name": "sync",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "time",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "github.com/charmbracelet/bubbletea",
+                      "version": "v0.24.1",
+                      "internal": false,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "github.com/charmbracelet/lipgloss",
+                      "version": "v0.6.0",
+                      "internal": false,
+                      "resolved": true,
+                      "deps": null
+                    }
+                  ]
+                },
+                {
+                  "name": "github.com/charmbracelet/bubbles/textinput",
+                  "version": "v0.15.0",
+                  "internal": false,
+                  "resolved": true,
+                  "deps": [
+                    {
+                      "name": "strings",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "time",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "unicode",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "github.com/atotto/clipboard",
+                      "version": "v0.1.4",
+                      "internal": false,
+                      "resolved": true,
+                      "deps": [
+                        {
+                          "name": "os/exec",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        }
+                      ]
+                    },
+                    {
+                      "name": "github.com/charmbracelet/bubbles/cursor",
+                      "version": "v0.15.0",
+                      "internal": false,
+                      "resolved": true,
+                      "deps": [
+                        {
+                          "name": "context",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "time",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "github.com/charmbracelet/bubbletea",
+                          "version": "v0.24.1",
+                          "internal": false,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "github.com/charmbracelet/lipgloss",
+                          "version": "v0.6.0",
+                          "internal": false,
+                          "resolved": true,
+                          "deps": null
+                        }
+                      ]
+                    },
+                    {
+                      "name": "github.com/charmbracelet/bubbles/key",
+                      "version": "v0.15.0",
+                      "internal": false,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "github.com/charmbracelet/bubbles/runeutil",
+                      "version": "v0.15.0",
+                      "internal": false,
+                      "resolved": true,
+                      "deps": [
+                        {
+                          "name": "unicode",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        },
+                        {
+                          "name": "unicode/utf8",
+                          "version": "",
+                          "internal": true,
+                          "resolved": true,
+                          "deps": null
+                        }
+                      ]
+                    },
+                    {
+                      "name": "github.com/charmbracelet/bubbletea",
+                      "version": "v0.24.1",
+                      "internal": false,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "github.com/charmbracelet/lipgloss",
+                      "version": "v0.6.0",
+                      "internal": false,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "github.com/mattn/go-runewidth",
+                      "version": "v0.0.14",
+                      "internal": false,
+                      "resolved": true,
+                      "deps": null
+                    }
+                  ]
+                },
+                {
+                  "name": "github.com/charmbracelet/bubbletea",
+                  "version": "v0.24.1",
+                  "internal": false,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "github.com/charmbracelet/lipgloss",
+                  "version": "v0.6.0",
+                  "internal": false,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "github.com/muesli/reflow/ansi",
+                  "version": "v0.3.0",
+                  "internal": false,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "github.com/muesli/reflow/truncate",
+                  "version": "v0.3.0",
+                  "internal": false,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "github.com/sahilm/fuzzy",
+                  "version": "v0.1.0",
+                  "internal": false,
+                  "resolved": true,
+                  "deps": [
+                    {
+                      "name": "sort",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "unicode",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "unicode/utf8",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "github.com/charmbracelet/bubbletea",
+              "version": "v0.24.1",
+              "internal": false,
+              "resolved": true,
+              "deps": null
+            },
+            {
+              "name": "github.com/spf13/cobra",
+              "version": "v1.7.0",
+              "internal": false,
+              "resolved": true,
+              "deps": [
+                {
+                  "name": "bytes",
+                  "version": "",
+                  "internal": true,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "context",
+                  "version": "",
+                  "internal": true,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "errors",
+                  "version": "",
+                  "internal": true,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "fmt",
+                  "version": "",
+                  "internal": true,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "io",
+                  "version": "",
+                  "internal": true,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "os",
+                  "version": "",
+                  "internal": true,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "path/filepath",
+                  "version": "",
+                  "internal": true,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "reflect",
+                  "version": "",
+                  "internal": true,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "sort",
+                  "version": "",
+                  "internal": true,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "strconv",
+                  "version": "",
+                  "internal": true,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "strings",
+                  "version": "",
+                  "internal": true,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "sync",
+                  "version": "",
+                  "internal": true,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "text/template",
+                  "version": "",
+                  "internal": true,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "time",
+                  "version": "",
+                  "internal": true,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "unicode",
+                  "version": "",
+                  "internal": true,
+                  "resolved": true,
+                  "deps": null
+                },
+                {
+                  "name": "github.com/spf13/pflag",
+                  "version": "v1.0.5",
+                  "internal": false,
+                  "resolved": true,
+                  "deps": [
+                    {
+                      "name": "bytes",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "encoding/base64",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "encoding/csv",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "encoding/hex",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "errors",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "flag",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "fmt",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "io",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "net",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "os",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "reflect",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "sort",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "strconv",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "strings",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    },
+                    {
+                      "name": "time",
+                      "version": "",
+                      "internal": true,
+                      "resolved": true,
+                      "deps": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "github.com/charmbracelet/bubbletea",
+          "version": "v0.24.1",
+          "internal": false,
+          "resolved": true,
+          "deps": null
+        },
+        {
+          "name": "github.com/spf13/cobra",
+          "version": "v1.7.0",
+          "internal": false,
+          "resolved": true,
+          "deps": null
+        }
+      ]
+    }
+  ]
+}
