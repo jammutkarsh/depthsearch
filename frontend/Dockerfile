@@ -13,4 +13,4 @@ RUN npm install
 COPY . .
 
 # Start the Vite preview server:
-CMD ["npm", "run", "preview"]
+CMD ["npm", "run", "start"]

@@ -35,7 +35,6 @@ func resolveRepo(repoURL string, opts Options) ([]byte, error) {
 		return nil, err
 	}
 	v, err := core.HandlePkgs(&t, ".")
-	fmt.Println(pwd)
 	os.Chdir(pwd)
 	os.RemoveAll(repoDir)
 	return v, err
