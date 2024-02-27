@@ -7,5 +7,8 @@ export default {
       customFont: ["Inter", "sans-serif"],
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["light", "dark"],
+  },
 };
