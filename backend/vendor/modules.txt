@@ -1,0 +1,6 @@
+# github.com/JammUtkarsh/depth v0.0.0-20240208101935-105f6d4ba6ce
+## explicit; go 1.17
+github.com/JammUtkarsh/depth
+# github.com/rs/cors v1.10.1
+## explicit; go 1.13
+github.com/rs/cors
