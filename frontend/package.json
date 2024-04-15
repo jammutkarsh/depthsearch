@@ -9,11 +9,17 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.18",
+    "@mui/x-tree-view": "^7.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "react-loader-spinner": "^6.1.6",
+    "react-router-dom": "^6.22.3",
     "react-scripts": "^5.0.1"
   },
   "devDependencies": {
+    "@types/follow-redirects": "^1.14.4",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "eslint": "^8.55.0",
