@@ -12,5 +12,8 @@ RUN npm install
 # Copy the rest of the project files
 COPY . .
 
-# Start the Vite preview server:
-CMD ["npm", "run", "start"]
+# Install dependencies
+RUN npm run build
+
+# Start the preview server:
+CMD ["npm", "start"]
